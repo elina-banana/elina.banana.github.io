@@ -1,0 +1,158 @@
+.concerts { /*all text with concert info*/
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px; 
+}
+
+.concerto { /*all text with concert info*/
+  background: #79b6eb;
+  padding: 15px;
+  border-radius: 12px;
+  width: 250px; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.concerto h2 { /*larger text in the div*/
+  font-family: Noto Sans;
+  font-size: 40px;
+  margin: 0;
+}
+
+.concerto p { /*smaller text in the div*/
+  font-family: Noto Sans;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+p { /*smaller text*/
+  font-family: Noto Sans;
+  font-size: 25;
+}
+
+h2 { /*larger text*/
+font-family: Noto Sans;
+font-size: 40px;
+}
+
+.bg { /*all info*/
+  background-color: #bbdeff;
+  width:1550px;
+  margin-left:50px;
+}
+
+h1 { /*title*/
+  font-family: Noto Sans;
+  margin-top: 0;
+  font-size: 50px;
+}
+
+.credits { /* text at very bottom of page */
+margin-left: 800px;
+}
+
+.about { /*about text, link and dropdown icon*/
+  color: black;
+  font-family: Noto Sans;
+  font-size:45px;
+  margin-bottom: 100px;
+}
+
+.fa-fa-caret-down {/*dropdown icon*/
+  margin-top: 35px;
+}
+
+.tour { /*tour link and text*/
+    font-size: 45px;
+    border: none;
+    outline: none;
+    color: black;
+    padding-top: 5px;
+    background-color: #2a88db;
+    font-family: Noto Sans;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 60px;
+}
+  
+  h3 { /*h3 text in the dropdown menu*/
+    margin-bottom: 0.5px;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+  
+  .logo { /*image and link*/
+    width: 300px;
+    float: left;
+  }
+  
+  .navbar { /*nav bar with all text and logo links*/
+    overflow: hidden;
+    background-color: #2a88db;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
+    width: 1550px;
+  }
+  
+  .navbar a { /*nav bar links*/
+    float: left;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown { /*dropdown menus containing links*/
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn { /*dropdown link buttons*/
+    font-size: 45px;
+    border: none;
+    outline: none;
+    color: black;
+    padding-top: 5px;
+    background-color: #2a88db;
+    font-family: Noto Sans;
+    margin-top: 35px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn { /*bg colour of button when you hover over them and dropdown menu content*/
+    background-color: #79b6eb;
+  }
+  
+  .dropdown-content { /*text in the dropdown menus*/
+    display: none;
+    position: absolute;
+    background-color: #79b6eb;
+    min-width: 160px;
+    z-index: 1;
+    margin-left: 60px;
+    font-family: Noto Sans;
+  }
+  
+  .dropdown-content a { /*the links in the dropdown menu*/
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 1;
+    font-size: 30px;
+  }
+  
+  .dropdown-content a:hover { /*dropdown menu content when you hover*/
+    background-color: #93bee4;
+  }
+  
+  .dropdown:hover .dropdown-content { /*dropdown menu content and dropdown in one block*/
+    display: block;
+  }
